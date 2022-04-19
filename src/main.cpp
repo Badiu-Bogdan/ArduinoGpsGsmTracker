@@ -127,6 +127,7 @@ void gpsloop()
 
   postToFirebase("PATCH", FIREBASE_PATH, gpsData, &http_client);
 }
+}
 
 
 void loop() {
